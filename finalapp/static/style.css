@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR&display=swap');
+
+
+body{
+    background-color: blanchedalmond;
+}
+
+.frame{
+     margin: 25px 130px;
+     display: flex;
+     flex-direction: column;
+}
+
+p{
+    font-family: 'Noto Sans KR','Montserrat', sans-serif;
+}
+
+/*navigator*/
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.nav-menu{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    color : black;
+    text-decoration: none;
+}
+a:hover{
+    color : white;
+    transition: 0.3s;
+}
+
+ul{
+    margin:0;
+}
+.site-name{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: rgb(92, 92, 78, 0.778);
+}
+
+.dashboard{
+    display: flex;
+    flex-direction:row;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-size: 70px;
+}
+
+.name{
+
+}
+.name:hover{
+    color : white;
+    -webkit-text-stroke: 0.1px #000;
+    transition: 0s;
+}
+
+.hw{
+    color : white;
+    -webkit-text-stroke: 0.1px #000;
+    transition: 0s;
+}
+.sw{
+    color : white;
+    -webkit-text-stroke: 0.1px #000;
+    transition: 0s;
+}
+.hw:hover{
+    background-color: aquamarine;
+    color : black;
+}
+.sw:hover{
+    background-color: aqua;
+    color : black;
+}
+.hili:hover{
+    color :rgb(0, 8, 255);
+    font-size: 75px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.face{
+    border: 2.5px solid rgb(36, 38, 108);
+    border-bottom: 5px solid rgb(36, 38, 108);
+    border-radius: 25px;
+    width: 300px; 
+    margin-right: 70px;
+}
+
+.face:hover{
+    border: 2.5px solid rgb(36, 38, 108);
+    border-bottom: 5px solid rgb(36, 38, 108);
+    border-radius: 25px;
+    width: 400px;
+    transition: 1.2s;
+}
+
+.recent-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.778);
+}
+
+.recent-works{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: darkgray;
+    font-size: 15px;
+}
+
+/*  info.html */
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.introduction>h2{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.introduction>p:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.more-something{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recent-menu-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.778);
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.recent-activity{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.youtube{
+    margin-top: 20px;
+}
+.everland{
+    margin-top: 40px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.work-footer{
+    margin-top: 10%;
+}
+
+.traveler{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.travel{
+    width: 465px;
+    margin-top: 30px;
+}
